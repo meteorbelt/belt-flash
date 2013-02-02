@@ -1,12 +1,10 @@
 // flashes provides an api for temporary flash messages stored in a
 // client only collection
-Belt = Belt || {};
-
-console.log('running flash');
+var Belt = Belt || {};
 
 (function () {
   var flash = {};
-  Meteor.Belt = {};
+
   // Client only collection
   flash.Collection = new Meteor.Collection(null);
 
@@ -50,5 +48,5 @@ console.log('running flash');
     });
   };
 
-  Meteor.Belt.Flash = flash;
+  Belt.Flash = flash;
 })();

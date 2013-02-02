@@ -3,18 +3,18 @@ Package.describe({
 });
 
 Package.on_use(function (api, where) {
-  console.log('entered Package.on_use');
   api.use('deps', 'client');
-  api.use('startup', 'client');
   api.use('mongo-livedata', 'client');
+  api.use('startup', 'client');
+  api.use('templating', 'client');
 
   api.add_files([
     'flash_client.js',
 
-    'flashes.js',
     'flashes.html',
-    'flash_item.js',
-    'flash_item.html'], 'client');
+    'flashes.js',
+    'flash_item.html',
+    'flash_item.js'], 'client');
 });
 
 
