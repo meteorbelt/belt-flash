@@ -1,0 +1,9 @@
+{
+  "name": "belt-flash",
+  "description": "A client flash notification system",
+  "homepage": "https://github.com/meteorbelt/belt-flash",
+  "author": "Kyle Finley <kyle@meteorbelt.com>",
+  "version": "0.1.0",
+  "git": "https://github.com/meteorbelt/belt-flash.git",
+  "packages": {}
+}
