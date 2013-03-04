@@ -1,6 +1,6 @@
 {
   "name": "belt-flash",
-  "description": "A client flash notification system",
+  "description": "Provides a client side flash notification system. For use with Meteor Belt applications",
   "homepage": "https://github.com/meteorbelt/belt-flash",
   "author": "Kyle Finley <kyle@meteorbelt.com>",
   "version": "0.1.0",

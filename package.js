@@ -1,5 +1,5 @@
 Package.describe({
-  summary: "A client flash notification system"
+  summary: "Provides a client side flash notification system. For use with Meteor Belt applications"
 });
 
 Package.on_use(function (api, where) {
@@ -16,7 +16,6 @@ Package.on_use(function (api, where) {
     'flash_item.html',
     'flash_item.js'], 'client');
 });
-
 
 Package.on_test(function (api) {
   api.use('belt-flash', 'client');
