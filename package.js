@@ -3,6 +3,7 @@ Package.describe({
 });
 
 Package.on_use(function (api, where) {
+  api.use('belt');
   api.use('deps', 'client');
   api.use('mongo-livedata', 'client');
   api.use('startup', 'client');
@@ -22,5 +23,5 @@ Package.on_test(function (api) {
   api.use('test-helpers', 'client');
   api.use('tinytest', 'client');
 
-  api.add_files('flash_client_tests.js', 'client');
+  api.add_files('flash_tests.js', 'client');
 });

@@ -1,5 +1,5 @@
 // Should create an error message
-Tinytest.add("Flash error", function (test) {
+Tinytest.add("belt - flash - error", function (test) {
   Belt.Flash.error('test');
   var f = Belt.Flash.Collection.findOne();
   test.equal(f.message, 'test');
@@ -10,7 +10,7 @@ Tinytest.add("Flash error", function (test) {
 });
 
 // Should create a success message
-Tinytest.add("Flash success", function (test) {
+Tinytest.add("belt - flash - success", function (test) {
   Belt.Flash.success('test');
   var f = Belt.Flash.Collection.findOne();
   test.equal(f.message, 'test');
@@ -21,7 +21,7 @@ Tinytest.add("Flash success", function (test) {
 });
 
 // Should create an info message
-Tinytest.add("Flash info", function (test) {
+Tinytest.add("belt - flash - info", function (test) {
   Belt.Flash.info('test');
   var f = Belt.Flash.Collection.findOne();
   test.equal(f.message, 'test');
@@ -32,7 +32,7 @@ Tinytest.add("Flash info", function (test) {
 });
 
 // Should mark show as false for "seen" messages
-Tinytest.add("Flash clear", function (test) {
+Tinytest.add("belt - flash - clear", function (test) {
   // create some message
   var f = [];
   Belt.Flash.info('test');
