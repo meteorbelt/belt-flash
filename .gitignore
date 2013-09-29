@@ -1,1 +1,5 @@
-.meteor
+.build*
+bower_components/jquery
+bower_components/toastr/*
+!bower_components/toastr/toastr.css
+!bower_components/toastr/toastr.js
